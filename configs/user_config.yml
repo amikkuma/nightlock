@@ -1,4 +1,4 @@
-github_api_token: "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"
+github_api_token: "github_token"
 ntfy_topic: "YDtbGWvw4KUiY3HD"
 plot_color: "blue"
 plot_title: "COVID-19 Cases by Country"
