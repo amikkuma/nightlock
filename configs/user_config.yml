@@ -1,7 +1,0 @@
-github_api_token: "github_token"
-ntfy_topic: "YDtbGWvw4KUiY3HD"
-plot_color: "blue"
-plot_title: "COVID-19 Cases by Country"
-plot_x_axis_title: "Confirmed Cases"
-plot_y_axis_title: "Deaths"
-figure_size: [8, 6]
