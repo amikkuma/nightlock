@@ -1,0 +1,1 @@
+kaggle API is used to connect to Kaggle and download the dataset live during the tests. So .kaggle/kaggle.json needs to be present for this to run. Please follow the Authentication section from https://www.kaggle.com/docs/api regarding the crednetials requirement.
