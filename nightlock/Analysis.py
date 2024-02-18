@@ -48,7 +48,7 @@ class Analysis:
         analysis_config : str
             The path to the YAML configuration file for the analysis.
         """
-
+        assert isinstance(analysis_config, str), "analysis_config must be a string"
         CONFIG_PATHS = ['configs/system_config.yml', 'configs/user_config.yml']
         paths = CONFIG_PATHS + [analysis_config]
         logging.basicConfig(level=logging.INFO,
@@ -164,6 +164,7 @@ class Analysis:
         requests.exceptions.RequestException
             If there is an error sending the notification.
         """
+        assert isinstance(message, str), "message must be a string"
         try:
             ntfy_topic = self.config.get('ntfy_topic')
             self.logger.info("Sending notification to ntfy.sh topic: %s", ntfy_topic)
