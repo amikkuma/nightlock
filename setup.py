@@ -4,6 +4,9 @@ setup(
     name='nightlock',
     version='0.1',
     packages=find_packages(exclude=['tests*']),
+    package_data={
+        'nightlock': ['configs/*.yml'], 
+    },
     license='MIT',
     description='A python package that analyzes data on COVID-19',
     long_description=open('README.md').read(),
